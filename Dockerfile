@@ -1,6 +1,6 @@
 FROM node:iron-bookworm-slim
 
-RUN npm install -g npm@9.1.3
+RUN npm install -g npm@10.2.5
 
 ADD package.json .
 ADD index.js .
